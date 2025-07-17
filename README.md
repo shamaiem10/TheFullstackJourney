@@ -9,7 +9,6 @@ A tiny login system built with Flask using sessions and routes.
 🔐 Users can log in with predefined credentials and get redirected to a dashboard.
 
 📂 Folder: `Login-System`
-![Screenshot](https://github.com/shamaiem10/TheFullstackJourney/blob/main/Message-Board/screenshot.png?raw=true)
 
 
 ---
@@ -19,6 +18,7 @@ A simple and cute Flask-based message board web app.
 ✍️ Users can leave their names and messages, which are then displayed with previous submissions.
 
 📂 Folder: `Message-Board`
+![Screenshot](https://github.com/shamaiem10/TheFullstackJourney/blob/main/Message-Board/screenshot.png?raw=true)
 
 ---
 
