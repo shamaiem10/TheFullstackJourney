@@ -1,0 +1,95 @@
+<!-- templates/dashboard.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leave a Message</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+             background-color: #ff69b4;
+           
+            background-size: cover;
+            background-position: center;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding-top: 40px;
+        }
+
+        .form-box {
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 10px;
+            outline: none;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #ffb6c1;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #ff99aa;
+        }
+
+        h2 {
+            color: #ff69b4;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            margin-top: 40px;
+            color: #ff69b4;
+        }
+
+        p {
+            background-color: #fff0f5;
+            padding: 10px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 500px;
+            margin: 5px auto;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="form-box">
+        <h2>Leave a Message</h2>
+        <form method="POST" action="/msgSubmit">
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Write your cute message here..." required></textarea><br>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+
+    {% if msgDic %}
+        <h3>Previous Messages:</h3>
+        {% for name, message in msgDic.items() %}
+            <p><strong>{{ name }}</strong>: {{ message }}</p>
+        {% endfor %}
+    {% endif %}
+</body>
+</html>
