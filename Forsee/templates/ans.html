@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Fortune - Forsee 🔮</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+            color: white;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px 50px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+            width: 80%;
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .question {
+            font-style: italic;
+            margin-bottom: 30px;
+            font-size: 1.2em;
+            color: #ffdaff;
+        }
+
+        .fortune {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #ffd700;
+            text-shadow: 2px 2px 5px #000;
+            margin-bottom: 30px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            background: #ff6ec4;
+            padding: 10px 20px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background: #ffb86c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>🔮 The Mystic Speaks...</h1>
+
+        <div class="question">
+            You asked:<br>
+            “{{ question }}”
+        </div>
+
+        <div class="fortune">
+            {{ answer }}
+        </div>
+
+        <a href="{{ url_for('home') }}">Ask Another Question</a>
+    </div>
+
+</body>
+</html>
