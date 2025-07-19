@@ -21,7 +21,14 @@ A simple and cute Flask-based message board web app.
 ![Screenshot](https://github.com/shamaiem10/TheFullstackJourney/blob/main/Message-Board/screenshot.png?raw=true)
 
 ---
-## 🔮 Project 3: Forsee – Flask Fortune Teller  
+## 📝 Project 4: Flask Blog Site  
+A minimal blogging platform made using Flask — no database, just good ol' Python and in-memory storage.  
+🖋️ Users can write blog posts with a title and content, and see them displayed beautifully on the homepage.
+
+📂 Folder: `Blog-Site`  
+![Screenshot](https://github.com/shamaiem10/TheFullstackJourney/blob/main/Blog-Site/static/images/screenshot.png?raw=true)
+---
+## 🔮 Project 4: Forsee – Flask Fortune Teller  
 A fun and mystical Flask web app that predicts your future!  
 🎱 Users ask a question, and the app reveals a randomly generated "fortune" response.
 
