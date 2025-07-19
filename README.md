@@ -21,7 +21,7 @@ A simple and cute Flask-based message board web app.
 ![Screenshot](https://github.com/shamaiem10/TheFullstackJourney/blob/main/Message-Board/screenshot.png?raw=true)
 
 ---
-## 📝 Project 4: Flask Blog Site  
+## 📝 Project 3: Flask Blog Site  
 A minimal blogging platform made using Flask — no database, just good ol' Python and in-memory storage.  
 🖋️ Users can write blog posts with a title and content, and see them displayed beautifully on the homepage.
 
