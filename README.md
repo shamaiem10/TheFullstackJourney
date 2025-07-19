@@ -26,7 +26,7 @@ A minimal blogging platform made using Flask — no database, just good ol' Pyth
 🖋️ Users can write blog posts with a title and content, and see them displayed beautifully on the homepage.
 
 📂 Folder: `Blog-Site`  
-![Screenshot](https://github.com/shamaiem10/TheFullstackJourney/blob/main/Blog-Site/static/images/screenshot.png?raw=true)
+![Screenshot](https://github.com/shamaiem10/TheFullstackJourney/blob/main/Blog-Site/static/img.png)
 ---
 ## 🔮 Project 4: Forsee – Flask Fortune Teller  
 A fun and mystical Flask web app that predicts your future!  
