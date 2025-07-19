@@ -35,7 +35,7 @@ A fun and mystical Flask web app that predicts your future!
 
 📂 Folder: `Forsee`  
 ![Screenshot](https://github.com/shamaiem10/TheFullstackJourney/blob/main/Forsee/static/images/Screenshot%202025-07-19%20182544.png?raw=true)
-
+![Screenshot](https://github.com/shamaiem10/TheFullstackJourney/blob/main/Forsee/static/images/Screenshot%202025-07-19%20182448.png)
 
 ## 💡 More Projects Coming Soon...
 Stay tuned as this journey continues — one project at a time! 🚧
